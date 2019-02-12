@@ -6,8 +6,6 @@ client.registry.registerGroup('default','Default Commands')
 client.registry.registerDefaults()
 client.registry.registerCommandsIn(__dirname + '/commands')
 client.on('Hello there',() => {
-    console.log(client)
-    console.log('Connected')
 })
 
 client.login(BotToken)
